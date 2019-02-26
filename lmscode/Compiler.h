@@ -7,7 +7,7 @@
 
 #include "Parser.h"
 
-#define LMS_COMPILATION_KEY "ihIHF98eg9fb2ge&@T#26932079-329i)#@UJ9032Y8932yfjckcf-fj@(~~```~"
+#define LMS_COMPILATION_KEY ""
 
 namespace LMS
 {
