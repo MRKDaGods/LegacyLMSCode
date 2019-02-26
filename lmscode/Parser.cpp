@@ -1176,7 +1176,7 @@ namespace LMS
 		_FIELDINFO *localVar = 0;
 		_FIELDINFO *localField = 0;
 		void *parent = 0;
-		unsigned short mx = -1;
+		short mx = -1;
 		if (localVar = _CORE Registry::FindLocalVariable(method, result->Parent))
 		{
 			parentClazz = localVar->fieldType;
@@ -1200,7 +1200,7 @@ namespace LMS
 			parent = parentClazz;
 			mx = 2;
 		}
-		unsigned short cx = -1;
+		short cx = -1;
 		void *member = 0;
 		if (member = _CORE Registry::FindField(parentClazz, result->Child))
 			cx = 0;
